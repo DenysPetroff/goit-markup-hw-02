@@ -1,0 +1,101 @@
+/* Body text - #434455  slate */
+
+/* Overlays Shadows Headings - #2E2F42 Navy blue */
+/* primary brand -nortmal-  #4D5AE5 iris */
+/* pressed state - hover - #404BBF OCEAN */
+/* Valid fields Success messages - #31D0AA green */
+/* Accent color Hairlines Subtle backgrounds #E7E9FC */
+/* Helper text Deemphasized text Subtle text - #8E8F99 */
+
+
+
+
+:root {
+    --primary-brand-button-color: #4D5AE5;
+    --pressed-hover-button-color: #404BBF;
+    --hover-navigation-adress: #404BBF;
+    --headings-dark-color: #2E2F42;
+    --success-valid-fields-color: #31D0AA;
+    --body-text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --modal-overlay-color: #2E2F42;
+    --hero-one-background-color: #2E2F42;
+    --hero-text-color: #ffffff; 
+    --background-header-color:#E7E9FC;
+    --backgroung-footer-color: #2E2F42;
+    --footer-text-color: #E7E9FC;
+    --button-text-hover-color: #ffffff;
+    --light-mode-backgrounds: #F4F4FD;
+
+}
+/* header */
+.header {background-color:#E7E9FC;}
+.header ul {
+    list-style: none;
+}
+/* -Logo- */
+.logo {color:#2E2F42 background-color:var(--background-header-color);}
+.logo>span {color:#4D5AE5;}
+
+/* nav-header */
+.nav-header {color:#2E2F42}
+.nav-header:hover { color: var(--hover-navigation-adress); }
+
+/* adress-list/ */
+.adress-list {color:#434455}
+.adress-list:hover {color: var(--hover-navigation-adress);}
+
+/* footer/ */
+.footer { background-color:var(--backgroung-footer-color); color:var(--footer-text-color) ;}
+
+.logo-footer {color: #F4F4FD;}
+.logo-footer>span {color: #4D5AE5;}
+
+/* main */
+.main-page { color: var(--body-text-color);}
+/* Hero-Section */
+.hero-one {color:var(--hero-text-color)}
+.section-hero-one { background-color:var(--hero-one-background-color);}
+.style-button {background-color:var(--primary-brand-button-color); color:#ffffff;}
+.style-button:hover {background-color:var(--pressed-hover-button-color) ;}
+
+
+/* section-features */
+.features {color: var(--body-text-color);}
+.features>ul {list-style: none;} 
+.headings-color {color: var(--headings-dark-color);}
+
+
+/* What we are doing */
+.examples>ul { list-style: none;}
+
+/* our team  */
+.team {background-color: var(--light-mode-backgrounds);}
+.team>ul {list-style: none;}
+
+
+/*PAGE PORTFOLIO */
+/* main  */
+.main-page {color: var(--body-text-color);}
+/* filters  */
+.filters ul {list-style: none;}
+.button-all { background-color:var(--accent-color); color: var(--primary-brand-button-color);}
+.button-webs {background-color: var(--accent-color); color: var(--primary-brand-button-color);}
+.button-app {background-color: var(--accent-color); color: var(--primary-brand-button-color);}
+.button-desighn {background-color: var(--accent-color); color: var(--primary-brand-button-color);}
+.button-marketing {
+        background-color: var(--accent-color); color: var(--primary-brand-button-color);
+    }
+.button-all:hover {color: var(--button-text-hover-color); background-color: var(--pressed-hover-button-color);}
+.button-webs:hover {color: var(--button-text-hover-color);
+    background-color: var(--pressed-hover-button-color);}
+.button-app:hover {color: var(--button-text-hover-color);
+    background-color: var(--pressed-hover-button-color);}
+.button-desighn:hover {color: var(--button-text-hover-color);
+    background-color: var(--pressed-hover-button-color);}
+.button-marketing:hover {color: var(--button-text-hover-color);
+    background-color: var(--pressed-hover-button-color);}
+
+    /* examples of our work */
+    .work-examples>ul {list-style: none;}
