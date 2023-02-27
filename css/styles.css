@@ -28,23 +28,38 @@
     --button-text-hover-color: #ffffff;
     --light-mode-backgrounds: #F4F4FD;
 
+  
 }
+  /* Body  */
+  body {font-family: Roboto, sans-serif; 
+    letter-spacing: 0.02em; 
+    font-size: 16px;
+    line-height: 1.5;
+
+color:var(--body-text-color);}
 /* header */
 .header {background-color:#E7E9FC;}
 .header ul {
     list-style: none;
 }
 /* -Logo- */
-.logo {color:#2E2F42 background-color:var(--background-header-color);}
+.logo {color:#2E2F42 background-color:var(--background-header-color); font-family: Raleway, sans-serif; letter-spacing: 0.03em; font-size: 18px;
+    line-height: 1.33; }
 .logo>span {color:#4D5AE5;}
 
 /* nav-header */
 .nav-header {color:#2E2F42}
 .nav-header:hover { color: var(--hover-navigation-adress); }
+.nav-header:focus {
+    color: var(--hover-navigation-adress);
+}
 
 /* adress-list/ */
 .adress-list {color:#434455}
-.adress-list:hover {color: var(--hover-navigation-adress);}
+.adress-list:hover {color: var(--hover-navigation-adress);} 
+.adress-list:focus {
+    color: var(--hover-navigation-adress);
+}
 
 /* footer/ */
 .footer { background-color:var(--backgroung-footer-color); color:var(--footer-text-color) ;}
@@ -53,19 +68,29 @@
 .logo-footer>span {color: #4D5AE5;}
 
 /* main */
-.main-page { color: var(--body-text-color);}
+/* .main-page { color: var(--body-text-color);} */
 /* Hero-Section */
-.hero-one {color:var(--hero-text-color)}
+.hero-one {color:var(--hero-text-color); font-size: 56px;
+    line-height: 1.07; text-align: center;}
 .section-hero-one { background-color:var(--hero-one-background-color);}
-.style-button {background-color:var(--primary-brand-button-color); color:#ffffff;}
-.style-button:hover {background-color:var(--pressed-hover-button-color) ;}
-
+.style-button {cursor: pointer; background-color:var(--primary-brand-button-color); color:#ffffff; letter-spacing: 0.04em;}
+.style-button:hover {background-color:var(--pressed-hover-button-color) ; letter-spacing: 0.04em;}
+.style-button:focus {background-color: var(--pressed-hover-button-color);
+    letter-spacing: 0.04em;}
 
 /* section-features */
 .features {color: var(--body-text-color);}
 .features>ul {list-style: none;} 
 .headings-color {color: var(--headings-dark-color);}
-
+h2 { font-family: 'Roboto'; 
+    font-weight: 700; 
+    font-size: 36px;
+    line-height: 1.11; 
+    text-align: center;}
+h3 {font-family: 'Roboto'; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;}
 
 /* What we are doing */
 .examples>ul { list-style: none;}
@@ -80,11 +105,11 @@
 .main-page {color: var(--body-text-color);}
 /* filters  */
 .filters ul {list-style: none;}
-.button-all { background-color:var(--accent-color); color: var(--primary-brand-button-color);}
-.button-webs {background-color: var(--accent-color); color: var(--primary-brand-button-color);}
-.button-app {background-color: var(--accent-color); color: var(--primary-brand-button-color);}
-.button-desighn {background-color: var(--accent-color); color: var(--primary-brand-button-color);}
-.button-marketing {
+.button-all {cursor: pointer; background-color:var(--accent-color); color: var(--primary-brand-button-color);}
+.button-webs {cursor: pointer; background-color: var(--accent-color); color: var(--primary-brand-button-color);}
+.button-app {cursor: pointer; background-color: var(--accent-color); color: var(--primary-brand-button-color);}
+.button-desighn {cursor: pointer; background-color: var(--accent-color); color: var(--primary-brand-button-color);}
+.button-marketing { cursor: pointer;
         background-color: var(--accent-color); color: var(--primary-brand-button-color);
     }
 .button-all:hover {color: var(--button-text-hover-color); background-color: var(--pressed-hover-button-color);}
@@ -96,6 +121,28 @@
     background-color: var(--pressed-hover-button-color);}
 .button-marketing:hover {color: var(--button-text-hover-color);
     background-color: var(--pressed-hover-button-color);}
-
-    /* examples of our work */
+        .button-all:focus {
+            color: var(--button-text-hover-color);
+            background-color: var(--pressed-hover-button-color);
+        }
+    
+        .button-webs:focus {
+            color: var(--button-text-hover-color);
+            background-color: var(--pressed-hover-button-color);
+        }
+    
+        .button-app:focus {
+            color: var(--button-text-hover-color);
+            background-color: var(--pressed-hover-button-color);
+        }
+    
+        .button-desighn:focus {
+            color: var(--button-text-hover-color);
+            background-color: var(--pressed-hover-button-color);
+        }
+    
+        .button-marketing:focus {
+            color: var(--button-text-hover-color);
+            background-color: var(--pressed-hover-button-color);
+        }:focus /* examples of our work */
     .work-examples>ul {list-style: none;}
