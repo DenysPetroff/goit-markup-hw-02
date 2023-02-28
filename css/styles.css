@@ -38,14 +38,14 @@
 
 color:var(--body-text-color);}
 /* header */
-.header {background-color:#E7E9FC;}
 .header ul {
     list-style: none;
 }
+.header a {text-decoration: none; font-style: normal;}
 /* -Logo- */
-.logo {color:#2E2F42 background-color:var(--background-header-color); font-family: Raleway, sans-serif; letter-spacing: 0.03em; font-size: 18px;
+.logo { color: var(--primary-brand-button-color);font-family: Raleway, sans-serif; letter-spacing: 0.03em; font-size: 18px;
     line-height: 1.33; }
-.logo>span {color:#4D5AE5;}
+.logo>span {color:var(--headings-dark-color);}
 
 /* nav-header */
 .nav-header {color:#2E2F42}
@@ -62,10 +62,17 @@ color:var(--body-text-color);}
 }
 
 /* footer/ */
+.footer a {text-decoration: none; }
 .footer { background-color:var(--backgroung-footer-color); color:var(--footer-text-color) ;}
 
-.logo-footer {color: #F4F4FD;}
-.logo-footer>span {color: #4D5AE5;}
+.logo-footer {color:var(--primary-brand-button-color); 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16x;
+    letter-spacing: 0.03em;}
+.logo-footer>span {color: var(--footer-text-color);}
 
 /* main */
 /* .main-page { color: var(--body-text-color);} */
