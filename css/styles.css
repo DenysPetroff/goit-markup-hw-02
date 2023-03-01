@@ -41,21 +41,21 @@ color:var(--body-text-color);}
 .header ul {
     list-style: none;
 }
-.header a {text-decoration: none; font-style: normal;}
+.header a {text-decoration: none; }
 /* -Logo- */
 .logo { color: var(--primary-brand-button-color);font-family: Raleway, sans-serif; letter-spacing: 0.03em; font-size: 18px;
     line-height: 1.33; text-transform: uppercase;}
 .logo>span {color:var(--headings-dark-color);}
 
 /* nav-header */
-.nav-header {font-weight: 500;}
+.nav-header {color:var(--headings-dark-color); font-weight: 500;}
 .nav-header:hover { color: var(--hover-navigation-adress); }
 .nav-header:focus {
     color: var(--hover-navigation-adress);
 }
 
 /* adress-list/ */
-.adress-list {color:#434455;font-style: normal;}
+.adress-list {color:var(--body-text-color) ;font-style: normal;}
 .adress-list:hover {color: var(--hover-navigation-adress);} 
 .adress-list:focus {
     color: var(--hover-navigation-adress);
@@ -70,7 +70,7 @@ color:var(--body-text-color);}
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16x;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 .logo-footer>span {color: var(--footer-text-color);}
@@ -81,7 +81,7 @@ color:var(--body-text-color);}
 .hero-one {color:var(--hero-text-color); font-size: 56px;
     line-height: 1.07; text-align: center;}
 .section-hero-one { background-color:var(--hero-one-background-color);}
-.style-button {font-family: 'Roboto';
+.style-button {font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -130,8 +130,7 @@ color:var(--body-text-color);}
 .main-page {color: var(--body-text-color);}
 /* filters  */
 .filters ul {list-style: none;}
-.button-filter {font-family: 'Roboto';
-    font-style: normal;
+.button-filter {font-family: roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;}
@@ -178,8 +177,8 @@ color:var(--body-text-color);}
         
         .portfolio>ul {list-style: none;} 
         .exampl-title { color: var(--headings-dark-color);
-            font-family: 'Roboto';
-            font-style: normal;
+            
+           
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
